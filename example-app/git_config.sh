@@ -1,5 +1,7 @@
 #!/bin/sh
 git config --list
+git config --global --unset-all user.name
+git config --global --unset-all user.email
 git config --global user.name "alena_liskova"
 git config --global user.email "liskova.aja@gmail.com"
 echo "Přihlášení uživatele proběhlo v pořádku"
